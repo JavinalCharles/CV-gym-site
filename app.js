@@ -1,6 +1,5 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const mongoose = require("mongoose");
 
 const app = express();
 
@@ -13,7 +12,7 @@ app.set('view engine', 'ejs');
 const PORT = process.env.PORT || 3000;
 
 app.get("/", function(req, res){
-	res.render("index");
+	res.render("index", {pageTitle: "Home"});
 });
 
 

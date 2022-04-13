@@ -1,0 +1,305 @@
+
+
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #F55000;
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3.5em;
+}
+
+h3 {
+	font-size: 3em;
+}
+
+h4 {
+	font-size: 2em;
+}
+
+h5 {
+	font-size: 1.5em;
+}
+
+h6 {
+	font-size: 1em;
+}
+
+button {
+	display: inline-block
+}
+
+/**************************
+* NAVBAR
+**************************/
+#fixed-navbar {
+	background-color: #000000;
+	/* border-bottom: 1px solid #F55000; */
+}
+
+#brand-image {
+	width: 100%;
+}
+
+.cta-button {
+	display: block;
+	text-align: center;
+	border: 0;
+	background-color: #F55000;
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: 600;
+	/* margin:auto 0.3em auto; */
+	padding: 0.8em;
+	border-radius: 50px;
+}
+
+.cta-button:hover {
+	background-color: #FFFFFF;
+	color: #F55000;
+}
+
+button.navbar-toggler {
+	display: block;
+	color: #FFFFFF;
+	border: 0;
+	padding-bottom: 0.5em;
+	/* width: 100%; */
+}
+
+.nav-item:hover, .navbar-toggler:hover, .nav-item:focus {
+	color: #F55000;
+	border-bottom: 1px solid #F55000;
+}
+
+a, a:hover, a:visited, a:active, a:target, a:focus, a:any-link {
+	color: inherit !important;
+	text-decoration: none;
+}
+
+.fa-brands {
+	color: inherit;
+}
+
+.fa-bars, .nav-link, .nav-link:hover {
+	text-align: center;
+	color: inherit;
+}
+
+/**********************************
+* MAIN
+**********************************/
+.flexbox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#home-container {
+	background-image: url("/images/banner-pexels-william-choquette.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 400px;
+}
+
+.bg-trans {
+	background-color: rgba(0, 0, 0, 0.7);
+	background-size: 100%;
+	width: 100%;
+	min-height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+.banner-heading {
+	font-weight: 1000;
+	font-size: 5em;
+	padding: 1em;
+	text-align: center;
+	/* padding-bottom: 0.5em; */
+}
+
+.banner-subheading {
+	text-align: justify;
+	padding: 0.5em;
+	font-size: 1.3em;
+	margin-bottom: 2em;
+}
+
+.btn-container {
+	padding-bottom: 2em;
+}
+
+#banner-btn {
+	display: block;
+	font-size: 2em;
+	margin: 0 auto;
+}
+
+/**********************************
+* TESTIMONIAL
+**********************************/
+
+#testimonial-section {
+	background-color: #FFFFFF;
+	width: 100%;
+	min-height: 100px;
+	color: #000000;
+}
+
+.testimonial-text {
+	color: #000000;
+	font-size: 1.5em;
+	text-align: justify;
+	line-height: 1.5;
+}
+
+.profile-image {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 100%;
+	margin: 20px;
+	vertical-align: middle;
+	border: 1px solid black;
+}
+
+.testimonial-image {
+	width: 100%;
+}
+
+.carousel-item.container-fluid {
+	padding: 7% 15%;
+	text-align: center;
+	height: 400px;
+}
+
+.profile em {
+	font-size: 1.2em;
+	/* line-height: 50px; */
+}
+
+#testimonial-section .fa-solid {
+	color: #000000;
+}
+
+/***************************
+* Contacts
+***************************/
+#contacts-section {
+	background-color: #000000;
+	width: 100%;
+	color: #FFFFFF;
+	padding: 1em;
+}
+
+.con-sec {
+	height: 200px;
+	padding: 1em;
+}
+
+.con-title {
+	font-weight: 1000px;
+	margin-bottom: 1em;
+	color: #FFFFFF;
+}
+
+.con-contents {
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+@media screen and (min-width: 576px) {
+	.testimonial-text {
+		font-size: 2em;
+	}
+	.profile em {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.testimonial-text {
+		font-size: 2.3em;
+	}
+	.carousel-item.container-fluid {
+		height: 450px;
+	}
+}
+
+@media screen and (min-width: 992px)
+{
+	#fixed-navbar {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	#brand-image {
+		width: 300px;
+	}
+
+	#home-container {
+		margin-top: 125px;
+		background-size: 100% auto;
+		background-attachment: fixed;
+		min-height: 674px;
+	}
+
+	.bg-trans {
+		min-height: 674px;
+	}
+
+	.banner-heading {
+		margin-left: 0;
+		padding-bottom: 0.3em;
+		padding-left: 20px;
+		text-align: left;
+		width: 50%;
+		max-width: 600px;
+	}
+
+	.banner-subheading {
+		padding-left: 25px;
+		/* text-align: left; */
+		width: 50%;
+		max-width: 600px;
+	}
+
+	.btn-container {
+		padding-left: 25px;
+		width: 50%;
+		max-width: 600px;
+	}
+
+	.btn-container #banner-btn {
+		margin: 0;
+		font-size: 2em;
+	}
+
+	.testimonial-text {
+		font-size: 3em;
+	}
+	.profile em {
+		font-size: 1.5em;
+	}
+	.carousel-item.container-fluid {
+		height: 600px;
+	}
+}
