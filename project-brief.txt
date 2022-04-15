@@ -1,0 +1,21 @@
+The goal of this website is to highlight that the gym is a premium & high quality wellbeing facility. The websites primary objective is to obtain contact information from prospective clients.
+
+The home page should be simple, yet of premium design. It should have menu bar at the top of the page, which should include:
+
+Facebook, Instagram & Tiktok logos with hyperlink to the gym social pages.
+Company logo - which has a hyperlink that takes them back to the main homepage of the website.
+
+Home Page - This should have a high quality banner photo that shows the vibe of the gym, but isn't too busy. There should be a 'Call to Action' text with an enquire now button taking them to a landing page to fill out their name, contact number & email. Underneath the banner there should be a scroll through gallery that can display member testimonials. Underneath this should be location of the club, contact details for the club and staffed hours.
+
+About us - This page should have a high quality video displaying great vibes of the club. Underneath the video should be a write up describing the member journey and also what the club offerings are. The Facebook, Instagram and TikTok logos and hyperlink attached to logos. It would be great to somehow automatically display the most recent Instagram post on the website.
+
+Classes - Each class name should have its own image and when you hover over the image the class description appears with a 'Book Now' button on it.
+
+Services - Services should display the membership options (without the pricing). Use this as an example, but we are wanting it to look more crisp and professional https://perfit.com.au/services
+
+Our Team - Again, use this as a reference, we will want a similar concept as the classes option I have mentioned above, so when you hover over a staff member an about brief comes up and a also a 'book a time with me' button will appear, taking the customer to the landing page form to fill out his/her name, number and email.
+
+Please note that all pages should have the FB messenger prompt on the page. Like we have already on our website.
+
+This is our current website - https://www.fikaa.nz/volition/
+Our brand colours are black, white and orange. The colour code for the orange is #F55000
