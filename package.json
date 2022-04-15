@@ -1,25 +1,28 @@
 {
-  "name": "gym-site",
-  "version": "1.0.0",
-  "description": "A gym site for Volition. An entry for a contest in freelancer.com",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JavinalCharles/CV-gym-site.git"
-  },
-  "author": "Charlemagne Javinal",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JavinalCharles/CV-gym-site/issues"
-  },
-  "homepage": "https://github.com/JavinalCharles/CV-gym-site#readme",
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "ejs": "^3.0.2",
-    "express": "^4.17.3",
-    "instagram-web-api": "^2.2.2"
-  }
+	"name": "gym-site",
+	"version": "1.0.0",
+	"description": "A gym site for Volition. An entry for a contest in freelancer.com",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JavinalCharles/CV-gym-site.git"
+	},
+	"author": "Charlemagne Javinal",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JavinalCharles/CV-gym-site/issues"
+	},
+	"homepage": "https://github.com/JavinalCharles/CV-gym-site#readme",
+	"dependencies": {
+		"body-parser": "^1.20.0",
+		"ejs": "^3.0.2",
+		"express": "^4.17.3",
+		"instagram-web-api": "^2.2.2"
+	},
+	"engines": {
+		"node": "16.x"
+	}
 }
