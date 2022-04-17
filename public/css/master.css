@@ -151,6 +151,7 @@ button.navbar-toggler {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-position: right;
 	min-height: 400px;
 	padding: 0;
 }
@@ -343,6 +344,7 @@ button.navbar-toggler {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-position: center;
 	min-height: 400px;
 	padding: 0;
 }
@@ -433,6 +435,7 @@ i.fa-brands.social-icon:hover {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-position: center;
 	min-height: 600px;
 	padding: 0;
 }
@@ -504,6 +507,7 @@ i.fa-brands.social-icon:hover {
 	background-image: url("/images/man-holding-black-dumbbell.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: center;
 	background-repeat: no-repeat;
 	min-height: 768px;
 	/* padding: 0;
@@ -619,6 +623,7 @@ i.fa-brands.social-icon:hover {
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-position: right;
 	min-height: 580px;
 }
 
